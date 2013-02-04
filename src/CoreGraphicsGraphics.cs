@@ -92,6 +92,11 @@ namespace CrossGraphics.CoreGraphics
 #endif
 		}
 
+        public void Clear(Color c)
+        {
+            throw new NotImplementedException();
+        }
+
 		public void FillPolygon (Polygon poly)
 		{
 			var count = poly.Points.Count;
